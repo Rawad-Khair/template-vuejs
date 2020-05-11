@@ -1,0 +1,35 @@
+[
+  { "id": 1, "url": "/", "title": "home", "dropMenu": null },
+  {
+    "id": 2,
+    "url": "#",
+    "title": "pages",
+    "dropMenu": [
+      { "id": 1, "url": "/services", "subTitle": "services", "subDropMenu": null },
+      {
+        "id": 2,
+        "url": "#",
+        "subTitle": "portfolios",
+        "subDropMenu": [
+          {
+            "id": 1,
+            "url": "#",
+            "subTitle": "portfolio gallery",
+            "subDropMenu": null
+          },
+          {
+            "id": 2,
+            "url": "#",
+            "subTitle": "portfolio details",
+            "subDropMenu": null
+          }
+        ]
+      },
+      { "id": 3, "url": "/about", "subTitle": "about us", "subDropMenu": null },
+      { "id": 6, "url": "/team", "subTitle": "team", "subDropMenu": null }
+    ]
+  },
+  { "id": 3, "url": "/about", "title": "about", "dropMenu": null },
+  { "id": 6, "url": "/services", "title": "services", "dropMenu": null },
+  { "id": 6, "url": "/team", "title": "team", "dropMenu": null }
+]
